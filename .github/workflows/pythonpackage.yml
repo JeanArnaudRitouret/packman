@@ -70,6 +70,6 @@ jobs:
     - uses: actions/checkout@v2
     - uses: akhileshns/heroku-deploy@v3.0.4 # This is the action
       with:
-        heroku_api_key: ${{secrets.c0ff8d86-4c11-45a8-be70-9b8dd9ae2eee}}
+        heroku_api_key: ${{secrets.HEROKU_API_KEY}}
         heroku_app_name: "jarpackman" # Must be unique in Heroku
-        heroku_email: ${{secrets.jeanarnaudritouret@gmail.com}}
+        heroku_email: ${{secrets.HEROKU_EMAIL}}
